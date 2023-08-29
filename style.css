@@ -13,9 +13,11 @@ nav{
     justify-content: space-between;
     background: #1876f1;
     padding: 5px 5%;
-    position:sticky;
+    position:fixed;
+    width: 100%;
     top:0;
     z-index: 100;
+    
 }
 .logo{
     width: 160px;
@@ -104,6 +106,7 @@ nav{
 }
 .main-content{
     flex-basis: 47%;
+    margin-top: 60px;
 }
 .imp-links a, .shortcut-links a{
     text-decoration: none;
